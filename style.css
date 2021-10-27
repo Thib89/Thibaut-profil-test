@@ -1,0 +1,69 @@
+body {
+  background-color: rgb(55, 91, 158);
+  color: beige;
+  font-family: 'Zen Maru Gothic', sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+h1, h2, h3 {
+font-family: 'Nunito Sans', sans-serif;
+color: rgb(255, 0, 0);
+}
+h1 {
+  font-size: 60px;
+  line-height: 1.5;
+}
+h2 {
+  font-size: 35px;
+}
+a {
+  color: antiquewhite;
+  text-decoration: none;
+}
+a:hover {
+  color: chartreuse;
+}
+.container {
+width: 700px;
+margin: 0px auto;
+}
+.card-green {
+background-color: rgb(58, 223, 195);
+text-align: center;
+padding: 20px;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.btn-discover {
+background-color: rgb(55, 91, 158);
+color: white;
+padding: 10px 20px;
+border-radius: 10px;
+}
+.btn-social > li {
+display: inline-block;
+color: rgb(55, 91, 158);
+}
+.btn-social i {
+color: rgb(55, 91, 158);
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
